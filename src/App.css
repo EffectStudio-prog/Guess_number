@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; 
+}
+
+body {
+  color: #eee;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw; 
+  height: 100vh; 
+  background-color: #333; 
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header .between {
+  font-size: 1.5rem;
+}
+
+header .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: #eee;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+header .number {
+  font-size: 6rem;
+  padding: 20px 40px;
+  margin-top: 20px;
+  border: 5px solid #eee;
+  border-radius: 5px;
+  background-color: #333;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 800px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left .guess {
+  font-size: 2rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100px;
+  text-align: center;
+}
+
+.left .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: #eee;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.right .message {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.right .label-score, .right .label-highscore {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}

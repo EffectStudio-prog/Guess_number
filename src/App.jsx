@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
     const [secretNumber, setSecretNumber] = useState(Math.trunc(Math.random() * 20) + 1);
-    const [score, setScore] = useState(20);
+    const [score, setScore] = useState(10 );
     const [highscore, setHighscore] = useState(0);
     const [message, setMessage] = useState('Start guessing...');
     const [guess, setGuess] = useState('');
